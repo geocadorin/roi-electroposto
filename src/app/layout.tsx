@@ -1,0 +1,25 @@
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import './globals.css'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Calculadora ROI Eletroposto',
+  description: 'Análise completa de investimento para estações de recarga elétrica',
+  keywords: 'ROI, eletroposto, carregador elétrico, investimento, análise financeira',
+  authors: [{ name: 'Calculator Team' }],
+  viewport: 'width=device-width, initial-scale=1',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="pt-BR">
+      <body className={inter.className}>{children}</body>
+    </html>
+  )
+}
