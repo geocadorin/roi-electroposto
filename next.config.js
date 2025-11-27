@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/calculator' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/calculator/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/roi-electroposto' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/roi-electroposto/' : '',
 }
 
 module.exports = nextConfig

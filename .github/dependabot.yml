@@ -1,0 +1,33 @@
+version: 2
+updates:
+  # Atualizações do npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "geocadorin"
+    assignees:
+      - "geocadorin"
+    commit-message:
+      prefix: "⬆️"
+      include: "scope"
+
+  # Atualizações do GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "geocadorin"
+    assignees:
+      - "geocadorin"
+    commit-message:
+      prefix: "🔧"
+      include: "scope"
