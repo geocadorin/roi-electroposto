@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, Input, Label } from '@/components/ui'
-import { Plus, TrendingUp, Calculator, Zap } from 'lucide-react'
+import { TrendingUp, Calculator, Zap } from 'lucide-react'
 
 import { StationForm } from '@/components/StationForm'
 import { OperationalDataForm } from '@/components/OperationalDataForm'

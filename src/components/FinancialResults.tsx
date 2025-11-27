@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { FinancialProjectionEntity } from '@/domain/entities/FinancialProjection'
-import { formatCurrency, formatPercent, formatCurrencyCompact } from '@/utils/formatters'
+import { formatPercent, formatCurrencyCompact } from '@/utils/formatters'
 
 interface FinancialResultsProps {
   calculations: FinancialProjectionEntity
