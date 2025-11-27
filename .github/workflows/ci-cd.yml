@@ -81,7 +81,7 @@ jobs:
           static_site_generator: next
           
       - name: 📤 Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./out
           
